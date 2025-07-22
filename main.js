@@ -9,27 +9,27 @@
        x.appendChild(p)
        y.value="" 
        
-       if(p.innerText.trim() === "hey"){
+       if(p.innerText.trim() === "Hey"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
-       else if (p.innerText.trim() === "good day"){
-           let botResponse=document.createElement("h5")
-           botResponse.innerText="Hello! How can I assist you today?"
-           botResponse.classList.add("bot-message")
-           x.appendChild(botResponse)
-       }
-       else if
-         (p.innerText.trim() === "hi"){
+       else if (p.innerText.trim() === "Good day"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
        else if
-         (p.innerText.trim() === "hello"){
+         (p.innerText.trim() === "Hi"){
+           let botResponse=document.createElement("h5")
+           botResponse.innerText="Hello! How can I assist you today?"
+           botResponse.classList.add("bot-message")
+           x.appendChild(botResponse)
+       }
+       else if
+         (p.innerText.trim() === "Hello"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
@@ -37,21 +37,21 @@
        }
       
        else if
-         (p.innerText.trim() === "hi there"){
+         (p.innerText.trim() === "Hi there"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
        else if
-         (p.innerText.trim() === "wassup"){
+         (p.innerText.trim() === "Wassup"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
        else if
-         (p.innerText.trim() === "whats up"){
+         (p.innerText.trim() === "Whats up"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="Hello! How can I assist you today?"
            botResponse.classList.add("bot-message")
@@ -59,42 +59,42 @@
        }
 
        else if
-         (p.innerText.trim() === "how are you"){
+         (p.innerText.trim() === "How are you"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="am fine and you? hope u are having a great day?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
        else if
-         (p.innerText.trim() === "how are you doing"){
+         (p.innerText.trim() === "How are you doing"){
            let botResponse=document.createElement("h5")
            botResponse.innerText="am fine and you? hope u are having a great day?"
            botResponse.classList.add("bot-message")
            x.appendChild(botResponse)
        }
          else if
-            (p.innerText.trim() === "how are you doing today"){
+            (p.innerText.trim() === "How are you doing today"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="am fine and you? hope u are having a great day?"
               botResponse.classList.add("bot-message")
               x.appendChild(botResponse)
          }
          else if
-            (p.innerText.trim() === "how are you today"){
+            (p.innerText.trim() === "How are you today"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="am fine and you? hope u are having a great day?"
               botResponse.classList.add("bot-message")
               x.appendChild(botResponse)
          }
          else if
-            (p.innerText.trim() === "how is your day going"){
+            (p.innerText.trim() === "How is your day going"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="am fine and you? hope u are having a great day?"
               botResponse.classList.add("bot-message")
               x.appendChild(botResponse)
          }
          else if
-            (p.innerText.trim() === "how is your day going so far"){
+            (p.innerText.trim() === "How is your day going so far"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="am fine and you? hope u are having a great day?"
               botResponse.classList.add("bot-message")
@@ -102,14 +102,14 @@
          }
 
          else if
-            (p.innerText.trim() === "who made you"){
+            (p.innerText.trim() === "Who made you"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="nnaemeka cyril chukwuemeka made me, he is a software engineer graduated from Circo digital academy and a student of the university of calabar"
               botResponse.classList.add("bot-message")
               x.appendChild(botResponse)
          }
          else if
-            (p.innerText.trim() === "am good and you"){
+            (p.innerText.trim() === "Am good and you"){
               let botResponse=document.createElement("h5")
               botResponse.innerText="same here"
               botResponse.classList.add("bot-message")
