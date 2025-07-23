@@ -1,4 +1,5 @@
-  let x=document.getElementById("chat")
+
+ let x=document.getElementById("chat")
   let y=document.getElementById("message")
   let z=document.getElementById("btn")
 
@@ -129,12 +130,14 @@
     e.addEventListener("click",()=> {
         i.classList.toggle("active")
         if (i.classList.contains("active")) {
-            i.style.background = "red";
+            document.body.style.background="black"
             
         }
         else
         {
-            i.style.background = "none";
+            document.body.style.background = "none";
            
         }
+
+        
     })
